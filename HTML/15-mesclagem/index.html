@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Minha primeira página!</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+            table {
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Célula 1</td>
+                <td>Célula 2</td>
+                <td>Célula 3</td>
+            </tr>
+            <tr>
+                <td colspan="2">Células Mescladas</td>
+                <td>Célula 3</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td rowspan="2">Célula 1</td>
+                <td>Célula 2</td>
+            </tr>
+            <tr>
+                <td>Célula 3</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>Tabela de linguagens de programação</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Linguagem</th>
+                    <th colspan="2">Caracteristicas</th>
+                    <th rowspan="2">Ano de Lançamento</th>
+                </tr>
+                <tr>
+                    <th>Paradigma</th>
+                    <th>Tipagem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">JavaScript</td>
+                    <td>Orientada a Objetos</td>
+                    <td rowspan="2">Fraca/Dinâmica</td>
+                    <td rowspan="2">1995</td>
+                </tr>
+                <tr>
+                    <td>Event-Driven</td>
+                </tr>
+                <tr>
+                    <td>TypeScript</td>
+                    <td>Orientada a Objetos</td>
+                    <td>Estática/forte</td>
+                    <td>2012</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

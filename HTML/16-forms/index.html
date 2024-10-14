@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Minha primeira página!</title>
+    </head>
+    <body>
+        <form action="/url-para-enviar-dados-do-formulario" method="post">
+            <label for="username">Nome de usuário:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="pwd">Senha:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+
+            <label for="male">Masculino</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Feminino</label>
+            <input type="radio" id="female" name="gender" value="female"><br>
+
+            <label for="option">Aceito receber Newslleters</label>
+            <input  type="checkbox" id="option" name="option" value="Yes"><br>
+
+            <laber for="message">Mensagem:</laber><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <laber for="country">País:</laber><br>
+            <select id="country" name="country">
+                <option value="brasil">Brasil</option>
+                <option value="usa">Estados Unidos</option>
+                <option value="canada">Canadá</option>
+            </select><br>
+
+            <input type="submit" value="Login">
+        </form>
+
+    </body>
+</html>
