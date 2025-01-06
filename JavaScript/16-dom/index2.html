@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecão com querySelector</title>
+</head>
+<body>
+    <div id="container">
+        <p class="item">Item 1</p>
+        <p class="item">Item 2</p>
+    </div>
+    <script>
+        var firstItem = document.querySelector('.item');
+        var allItems = document.querySelectorAll('.item');
+        console.log(firstItem);
+        console.log(allItems);
+    </script>
+</body>
+</html>
